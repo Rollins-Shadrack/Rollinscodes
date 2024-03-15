@@ -15,7 +15,7 @@ const Features = () => {
               All the <span className="text-brandDarkBlue">Features</span> that you need
             </SubTitle>
             <TitleDesc className="">
-              When building a website for your business, there are several features that you'll want to consider.
+              When building a website for your business, there are several features that you will want to consider.
             </TitleDesc>
             {featuresSection.map((feature, idx) => (
               <div key={idx} className="flex items-center space-x-4 my-5">
