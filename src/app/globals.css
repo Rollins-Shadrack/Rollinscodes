@@ -67,10 +67,30 @@
 }
  
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
+    @media screen and (min-width: 1600px) {
+    .maxwidthContainer,nav {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+    
+  }
+
+  *::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #111111; 
+  border-radius: 10px;
+}
+
 }
