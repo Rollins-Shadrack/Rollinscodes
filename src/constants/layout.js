@@ -3,7 +3,6 @@ import { LucideFacebook, LucideGithub, LucideInstagram, LucideLinkedin, LucideTw
 export const navItems = {
   pages: [
     { link: "Home", path: "/" },
-    { link: "About Us", path: "/about" },
     { link: "Portfolio", path: "/portfolio" },
   ],
   sections: [

@@ -30,7 +30,7 @@ const Features = () => {
             ))}
           </div>
           <div className="relative w-full">
-            <Image src="/features.jpg" width={700} height={400} alt="rollinscodes.com" className='w-full h-full object-cover rounded-lg relative' />
+            <Image src="/features.jpg" width={900} height={700} alt="rollinscodes.com" className='w-full h-full object-cover rounded-lg relative' />
 <CardDescription className="absolute bottom-2 right-3 bg-white p-2 lg:w-2/5 w-4/5  rounded-lg shadow-xl ">Building a proffesional website can help grow your business by increasing your visibility, establishing credibility</CardDescription>
           </div>
         </div>

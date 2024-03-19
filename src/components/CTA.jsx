@@ -11,7 +11,7 @@ const CTA = () => {
         <div className="md:w-8/12 w-full">
           <Title className="leading-relaxed mb-5">Tell us about your project today and get a Project Charter for free</Title>
           <a href="https://rollinscodes.zapier.app/get-in-touch" target="blank">
-            <Button variant="outline" className="text-black px-8">Contact Us</Button>
+            <Button className="my-7 bg-gradient-to-tl from-brandDarkBlue to-brandLightBlue text-transparent text-white ">Let us get in Touch</Button>
           </a>
         </div>
         <div className="md:w-4/12 w-full flex items-center justify-center ">

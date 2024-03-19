@@ -46,6 +46,7 @@ export const whatwedo = [
       "Thorough debugging",
       "Performance optimization",
     ],
+    languages: ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "SQL", "Python", "React.js", "Node.js","Mongo DB","Tailwind","Bootstrap"],
   },
   {
     img: "/UX.png",
@@ -58,16 +59,61 @@ export const whatwedo = [
       "Additional page designs",
       "Iterative design updates",
     ],
+    languages: ["Figma", "Canva"],
   },
   {
     img: "/ecommerce.png",
     title: "E-commerce Development",
     features: ["User-centric design", "SEO-enhanced coding", "Seamless Integrations", "Effortless data migration"],
+    languages: ["HTML", "CSS", "JavaScript", "TypeScript", "PHP", "SQL", "Python", "React.js", "Node.js"],
   },
 
   {
     img: "/mobile.png",
     title: "Mobile Apps Development",
     features: ["Intuitive user experience design", "Tailored Android applications", "Custom iOS app development", "Seamless data migrations"],
+    languages: ["React Native",],
+  },
+];
+export const testimonials = [
+  {
+    test: "Rollins Codes transformed our online presence with a custom web application that exceeded our expectations. Their expertise in developing tailored solutions for our industry has been invaluable. We've seen a significant increase in user engagement and efficiency since implementing their solution.",
+    name: "Alyasin Ali",
+    position: "CEO | World Wings",
+    img: "/testimonial/alyasin.jpg",
+  },
+  {
+    test: "I've been collaborating with Rollins Codes for months now, and their commitment to quality and innovation never ceases to impress me. Their custom web designs have helped my business thrive in a competitive market. I highly recommend their services to anyone seeking professional web development",
+    name: "Josephine Maina",
+    position: "Entrepreneur | Happy customer",
+    img: "/testimonial/josphine.jpeg",
+  },
+  {
+    test: "Rollins Codes delivered a fresh and modern design that elevated our brand image and captivated our audience. Their attention to detail and creative approach transformed our website into a powerful marketing tool. Working with them was a game-changer for our business.",
+    name: "Samuel Kimani",
+    position: "Entrepreneur | Happy customer",
+    img: "/testimonial/kimani.jpeg",
+  },
+];
+
+
+export const stacks = [
+  {
+    img: "/mern.png",
+    title: "MERN Stack",
+    desc: "",
+    languages: ["React.js", "Node.js", "Express", "Mongo DB"],
+  },
+  {
+    img: "/pern.jpeg",
+    title: "PERN Stack",
+    desc: "",
+    languages: ["React.js", "Node.js", "Express", "PostgreSQL"],
+  },
+  {
+    img: "/laravel.png",
+    title: "Laravel & React",
+    desc: "",
+    languages: ["React.js", "Laravel", "MySQL"],
   },
 ];
