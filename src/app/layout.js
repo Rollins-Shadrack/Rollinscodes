@@ -12,6 +12,7 @@ export const fontSans = FontSans({
 export const metadata = {
   title: "Rollins Codes",
   description: "Digital Crafters",
+  verification: { google: "-AXuIRUPwMRxfwPmG0_CmnDNO_zz-MRJwPxyX53sIro" },
 };
 
 export default function RootLayout({ children }) {
