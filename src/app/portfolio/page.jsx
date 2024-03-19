@@ -6,7 +6,7 @@ import Experience from "./_sections/Experience";
 
 export const metadata = {
   title: "Portfolio",
-  description: "",
+  description: "Get to know me",
 };
 export default function Portfolio() {
   return (
